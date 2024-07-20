@@ -6,7 +6,7 @@ int main() {
     printf("Enter number of rows: ");
     scanf("%d", &rows);
 
-    // Loop through each row
+    // Loop through each row..
     for (int i = rows; i >= 1; i--) {
         // Print leading spaces
         for (space = 0; space < rows - i; space++) {
